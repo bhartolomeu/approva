@@ -31,3 +31,7 @@ div{
 		text-align:center;
 		padding: 1em;
 }
+canvas{
+	border-radius:500px;
+	background-color:#abf;
+}
