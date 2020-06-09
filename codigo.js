@@ -1,4 +1,4 @@
-function ir_para_pagina(url_pagina){
+ function ir_para_pagina(url_pagina){
 	window.location.href=url_pagina
 }
 function novo_usuario(){
@@ -14,4 +14,5 @@ function login(){
 	usuario = document.getElementById('usuario').value
 	senha = document.getElementById('senha').value
 	console.log('O usuario '+usuario+' com senha ' +senha+" está pronto para logar")
+	ir_para_pagina('conteudo.html')
 }
