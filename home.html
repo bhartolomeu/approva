@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = 'pt-br'>
+    <head>
+        <meta charset = 'UTF-8'>
+        <meta name = 'viewport' content = 'width-device-width, initial-scale-1.0'>
+        <meta http-equiv = "X-UA-Compatible" content="ie=edge">
+        <title>Approva, o site que aprova</title>
+        <link rel="stylesheet" href="regras.css">
+    </head>    
+    <body bgcolor="#87CEFA">
+
+        <header>
+	       <h1 id='titulo_pag'>Approva</h1>
+           <h2 id='subtitulo_pag'>O site que te aprova</h2>
+        </header>
+
+        <section>
+
+            <div id='inicio'> 
+
+                <img id='primeira_imagem' src= 'foto_inicio.jpg' alt='Foto de inicio' width='300' height='300'> <br>
+
+                <!--<a id = 'log' href='login.html'>Login</a>
+                <a id='cadastro' href='cadastro.html'>Cadastro</a>-->
+
+                <input type='button' id='log' onclick = "ir_para_pagina('login.html')" value='Login'>
+                <input type='button' id='cadastro' onclick = "ir_para_pagina('cadastro.html')" value='Cadastro'>
+
+            </div>
+            
+        </section>
+        <!--<p text-align='center'>&copy;Equipe Approva</p>-->
+        <footer><p>&copy;Equipe Approva</p></footer>
+
+        <script src='codigo.js'></script>
+    </body>
+</html>

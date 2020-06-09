@@ -1,9 +1,7 @@
-function mudar_cor(){
-	var msg = window.document.getElementById('msg_comeco')
-	document.body.style.color = '#abf'
+function ir_para_pagina(url_pagina){
+	botao = document.getElementById('log')
+	window.location.href=url_pagina
 }
-
-function voltar_cor(){
-	var msg = window.document.getElementById('msg_comeco')
-	document.body.style.color = '#000'
+function cadastrando(){
+	console.log('Botão cadastro funciona')
 }

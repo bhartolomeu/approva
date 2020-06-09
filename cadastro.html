@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = 'pt-br'>
+    <head>
+        <meta charset = 'UTF-8'>
+        <meta name = 'viewport' content = 'width-device-width, initial-scale-1.0'>
+        <meta http-equiv = "X-UA-Compatible" content="ie=edge">
+        <title>Approva, o site que aprova</title>
+        <link rel="stylesheet" href="regras.css">
+    </head>   
+    <body bgcolor='#87CEFA'>
+        <header>
+	       <h1 id='titulo_pag'>CADASTRO</h1>
+        </header>
+
+        <section>
+        	<div>
+            	<label>Usuário</label>
+            	<input type="text" name="usuario"><!--No lugar de text,pode ser o "email"... -->
+            </div >
+            
+            <div>
+                <label>Senha</label>
+                <input type='text' name='senha'>
+            </div>
+
+            <div>
+                <label>Nome</label>
+                <input type='text' name='nome'>
+            </div>
+
+            <div>
+                <label>E-mail</label>
+                <input type='email' name='email'>
+            </div>
+
+            <div>
+                <label>Telefone</label>
+                <input type='text' name='telefone'>
+            </div>
+
+            <div>
+            	<button id='cadastrar' onclick = 'cadastrando()'>Cadastrar</button>
+            </div>
+
+        </section>
+
+        <footer>
+        	<p color='white'>&copy; Equipe Aprova</p>
+        </footer>
+
+        <script src='codigo.js'></script>
+    </body>
+</html>

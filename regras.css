@@ -1,5 +1,5 @@
 body{
-    background-color: ##87CEFA;
+    background-color: #87CEFA;
     font: normal 15pt Arial;
     }
 
@@ -19,7 +19,7 @@ header{
 }
 
 footer{
-	color:##87CEFA;
+	color:#fff;
     text-align:center;
     font-style: italic;
     background-color:#87CEFA;
