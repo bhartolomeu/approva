@@ -15,37 +15,41 @@
         <section>
         	<div>
             	<label>Usuário</label>
-            	<input type="text" name="usuario"><!--No lugar de text,pode ser o "email"... -->
+            	<input type="text" id = 'usuario' name="usuario"><!--No lugar de text,pode ser o "email"... -->
             </div >
             
             <div>
                 <label>Senha</label>
-                <input type='text' name='senha'>
+                <input type='text' id='senha' name='senha'>
             </div>
 
             <div>
                 <label>Nome</label>
-                <input type='text' name='nome'>
+                <input type='text' id='nome' name='nome'>
             </div>
 
             <div>
                 <label>E-mail</label>
-                <input type='email' name='email'>
+                <input type='email' id='email' name='email'>
             </div>
 
             <div>
                 <label>Telefone</label>
-                <input type='text' name='telefone'>
+                <input type='text' id='telefone' name='telefone'>
             </div>
 
             <div>
-            	<button id='cadastrar' onclick = 'cadastrando()'>Cadastrar</button>
+            	<button id='cadastrar' onclick ='novo_usuario()'>Cadastrar</button>
             </div>
 
         </section>
 
         <footer>
-        	<p color='white'>&copy; Equipe Aprova</p>
+        	<p color='white'>&copy; Equipe Approva</p>
+        	<font size= '3'>
+        	    <label>Já é cadastrado?</label>
+        	    <a href='login.html'>LOGIN</a>
+            </font>
         </footer>
 
         <script src='codigo.js'></script>
