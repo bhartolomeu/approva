@@ -19,10 +19,13 @@ header{
 }
 
 footer{
-	color:#fff;
+	color:#3265FF;
     text-align:center;
     font-style: italic;
-    background-color:#87CEFA;
+    background-color:#fff;
+    height: 100px;
+    border-radius:10px;
+    box-shadow: 3px 3px 10px #777;
 }
 img{
 	border-radius:500px;
