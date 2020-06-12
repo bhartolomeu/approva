@@ -13,20 +13,15 @@
 	       <h1 id='titulo_pag'>CADASTRO</h1>
         </header>
 
-        <section>
-        	<div style='text-align:left'>
-            	<label>Usuário</label>
-            	<input type="text" id = 'usuario' name="usuario"><!--No lugar de text,pode ser o "email"... -->
-            </div>
-            
-            <div style='text-align:left'>
-                <label>Senha</label>
-                <input type='text' id='senha' name='senha'>
-            </div>
-
+        <section>            
             <div style='text-align:left'>
                 <label>Nome</label>
                 <input type='text' id='nome' name='nome'>
+            </div>
+
+            <div style='text-align:left'>
+                <label>Senha</label>
+                <input type='text' id='senha' name='senha'>
             </div>
 
             <div style='text-align:left'>
@@ -40,16 +35,16 @@
             </div>
 
             <div>
-            	<button id='cadastrar' onclick ='Usuario()' bgcolor='#9bf' style='padding:5px'>Cadastrar</button><br>
+            	<button id='cadastrar' onclick ='novo_usuario()' bgcolor='#9bf' style='padding:5px'>Cadastrar</button><br>
             	<font size= '3'><label>Já é cadastrado?</label><a href='login.html'>LOGIN</a></font>
             </div>
 
         </section><br>
 
         <footer><br>
-        	<p color='white'>&copy; Equipe Approva</p>
-        	
-            </font>
+        	<div>
+        	    <p color='white'>&copy; Equipe Approva</p>	
+            </div>
         </footer>
 
         <script src='codigo.js'></script>
